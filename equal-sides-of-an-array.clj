@@ -1,3 +1,5 @@
+; https://www.codewars.com/kata/equal-sides-of-an-array
+
 (ns findeven.core)
 
 (defn split [index collection]

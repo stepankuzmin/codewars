@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/539a0e4d85e3425cb0000a88
+// https://www.codewars.com/kata/a-chain-adding-function
 
 function add(n) {
   const f = m => add(n + m);

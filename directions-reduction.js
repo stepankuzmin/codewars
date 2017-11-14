@@ -1,11 +1,11 @@
-// https://www.codewars.com/kata/550f22f4d758534c1100025a
+// https://www.codewars.com/kata/directions-reduction
 
 function isOpposite(dir1, dir2) {
   const oppositeDirs = {
-    "NORTH": "SOUTH",
-    "SOUTH": "NORTH",
-    "EAST": "WEST",
-    "WEST": "EAST"
+    NORTH: 'SOUTH',
+    SOUTH: 'NORTH',
+    EAST: 'WEST',
+    WEST: 'EAST'
   };
 
   return oppositeDirs[dir1] === dir2;
